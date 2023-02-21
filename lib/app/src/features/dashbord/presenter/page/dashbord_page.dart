@@ -45,9 +45,19 @@ class _DashBordPageState extends State<DashBordPage> {
               activeIcon: const Icon(Icons.search_outlined),
             ),
             FaceOfFoodBottonBarItem(
-              icon:const IconFaceBar(icon: Icon(Icons.file_copy), couterBadge:3),
+              icon: const IconFaceBar(
+                icon: Icon(
+                  Icons.file_copy,
+                ),
+                couterBadge: 3,
+              ),
               label: 'Pedidos',
-              activeIcon:const IconFaceBar(icon: Icon(Icons.file_copy), couterBadge:3),
+              activeIcon: const IconFaceBar(
+                icon: Icon(
+                  Icons.file_copy,
+                ),
+                couterBadge: 3,
+              ),
             ),
             FaceOfFoodBottonBarItem(
               icon: const Icon(Icons.person),
@@ -58,4 +68,3 @@ class _DashBordPageState extends State<DashBordPage> {
     );
   }
 }
-

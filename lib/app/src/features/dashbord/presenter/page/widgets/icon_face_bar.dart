@@ -15,24 +15,23 @@ class IconFaceBar extends StatelessWidget {
       return Stack(
         clipBehavior: Clip.none,
         children: [
-           icon,
+          icon,
           Positioned(
-            right: -5,
-            top: -5,
-            child: CircleAvatar(
-              radius: 9,
-              backgroundColor: Colors.red,
-              child: Text(
-                '$couterBadge',
-                style: const TextStyle(
-                  color: Colors.white,
+              right: -5,
+              top: -5,
+              child: CircleAvatar(
+                radius: 9,
+                backgroundColor: Colors.red,
+                child: Text(
+                  '$couterBadge',
+                  style: const TextStyle(
+                    color: Colors.white,
+                  ),
                 ),
-              ),
-            ),
-          ),
+              ))
         ],
       );
     }
-    return  icon;
+    return icon;
   }
 }
